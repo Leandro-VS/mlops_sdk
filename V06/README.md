@@ -1,5 +1,6 @@
 # Diagrama de Sequencia
 
+```
 @startuml
 actor Usuario as U
 participant Lotus as L
@@ -29,9 +30,11 @@ CF -> L: Result
 L -> U: Result
 @enduml
 
+```
 
 # Diagrama UML
 
+```
 @startuml
 
 class Lotus {
@@ -85,3 +88,5 @@ SageMakerFacade --> BYOCTraining : creates
 CidartaFacade --> ProjectManager : uses
 
 @enduml
+
+```
